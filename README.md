@@ -33,6 +33,16 @@ ln -s $(pwd)/tdd ~/.pi/agent/skills/tdd
 | **qa** | Interactive QA session — describe bugs conversationally, agent files GitHub issues with proper domain language. |
 | **improve-codebase-architecture** | Find deepening opportunities — refactors that turn shallow modules into deep ones. Informed by CONTEXT.md and ADRs. |
 
+### DSPy (3.2.x)
+
+| Skill | Description |
+|-------|-------------|
+| **dspy-fundamentals** | Typed Signatures, Modules, Predict/ChainOfThought/ReAct/ProgramOfThought, save/load. |
+| **dspy-evaluation-harness** | Rich-feedback metrics, dspy.Evaluate, dev/val splits, CI-ready eval suites. |
+| **dspy-gepa-optimizer** | Optimize DSPy programs with dspy.GEPA — reflective/evolutionary Pareto optimizer. |
+| **dspy-rlm-module** | Recursive Language Model for >100k token contexts via sandboxed Python REPL. |
+| **dspy-advanced-workflow** | End-to-end pipeline: spec → program → metric → baseline → GEPA → export → deploy. |
+
 ### Meta
 
 | Skill | Description |
@@ -49,4 +59,4 @@ ln -s $(pwd)/tdd ~/.pi/agent/skills/tdd
 
 ## License
 
-Original skills by [Matt Pocock](https://github.com/mattpocock/skills). See original repo for license.
+Original skills by [Matt Pocock](https://github.com/mattpocock/skills) and [intertwine/dspy-agent-skills](https://github.com/intertwine/dspy-agent-skills). See original repos for licenses.

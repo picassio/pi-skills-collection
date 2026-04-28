@@ -43,6 +43,18 @@ ln -s $(pwd)/tdd ~/.pi/agent/skills/tdd
 | **dspy-rlm-module** | Recursive Language Model for >100k token contexts via sandboxed Python REPL. |
 | **dspy-advanced-workflow** | End-to-end pipeline: spec → program → metric → baseline → GEPA → export → deploy. |
 
+### UI/UX & Design
+
+| Skill | Description |
+|-------|-------------|
+| **ui-ux-pro-max** | Master design intelligence — 50+ styles, 161 palettes, 57 font pairings, 99 UX guidelines, searchable CSV databases. |
+| **design** | Logo, CIP, icon, social photos, banner generation with Gemini AI. |
+| **design-system** | Token architecture (primitive→semantic→component), component specs, slide generation. |
+| **ui-styling** | shadcn/ui + Tailwind CSS + canvas-based visual designs. |
+| **brand** | Brand voice, visual identity, messaging frameworks, asset management. |
+| **slides** | Strategic HTML presentations with Chart.js and design tokens. |
+| **banner-design** | Multi-platform banner design for social, ads, web, and print. |
+
 ### Meta
 
 | Skill | Description |
@@ -59,4 +71,4 @@ ln -s $(pwd)/tdd ~/.pi/agent/skills/tdd
 
 ## License
 
-Original skills by [Matt Pocock](https://github.com/mattpocock/skills) and [intertwine/dspy-agent-skills](https://github.com/intertwine/dspy-agent-skills). See original repos for licenses.
+Original skills by [Matt Pocock](https://github.com/mattpocock/skills), [intertwine/dspy-agent-skills](https://github.com/intertwine/dspy-agent-skills), [ksimback/tech-debt-skill](https://github.com/ksimback/tech-debt-skill), [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills), and [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill). See original repos for licenses.

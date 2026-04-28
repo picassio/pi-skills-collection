@@ -1,0 +1,32 @@
+{
+  "name": "@picassio/pi-skills",
+  "version": "1.0.0",
+  "description": "Curated pi-agent skills collection — UI/UX, TDD, DSPy, architecture, design, and more",
+  "keywords": ["pi-agent", "skills", "ai", "coding-agent", "tdd", "dspy", "ui-ux", "design"],
+  "author": "picassio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/picassio/pi-skills-collection.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "*/SKILL.md",
+    "*/references/",
+    "*/scripts/",
+    "*/data/",
+    "*/templates/",
+    "*/*.md",
+    "*/*.py",
+    "README.md"
+  ],
+  "scripts": {
+    "install-all": "node bin/install.js",
+    "install-skill": "node bin/install.js"
+  },
+  "bin": {
+    "pi-skills": "bin/install.js"
+  }
+}
